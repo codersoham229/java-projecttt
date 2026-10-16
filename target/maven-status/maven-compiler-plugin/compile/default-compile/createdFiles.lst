@@ -1,0 +1,10 @@
+com\foodordering\util\DBConnection.class
+com\foodordering\model\FoodItem.class
+com\foodordering\servlet\AddToCartServlet.class
+com\foodordering\dao\FoodDAO.class
+com\foodordering\model\CartItem.class
+com\foodordering\servlet\MenuServlet.class
+com\foodordering\servlet\RemoveFromCartServlet.class
+com\foodordering\servlet\CartServlet.class
+com\foodordering\servlet\CheckoutServlet.class
+com\foodordering\dao\OrderDAO.class

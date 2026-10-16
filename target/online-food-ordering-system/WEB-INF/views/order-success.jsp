@@ -1,0 +1,5 @@
+<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+<!DOCTYPE html><html><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Order Placed - Foodie</title><link rel="stylesheet" href="${pageContext.request.contextPath}/css/style.css"></head>
+<body><header class="topbar"><a class="brand" href="${pageContext.request.contextPath}/menu">Foodie<span>.</span></a><nav><a href="${pageContext.request.contextPath}/menu">Menu</a></nav></header>
+<main class="container narrow"><section class="empty-state success"><div class="big-emoji">✓</div><p class="eyebrow">ORDER CONFIRMED</p><h1>Thanks for your order!</h1><p>Your order has been saved successfully.</p><div class="order-number">Order number: <strong>#${orderId}</strong></div><p>Total paid at checkout: <strong>₹${total}</strong></p><p class="muted">This assignment demo records the order; it does not process online payments.</p><a class="button" href="${pageContext.request.contextPath}/menu">Order more food</a></section></main><footer>Foodie. — Online Food Ordering System</footer></body></html>
